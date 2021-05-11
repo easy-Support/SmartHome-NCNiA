@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="@font/nanumsquareroundr"
+    android:textColor="#707070"
+    tools:context=".SubActivity">
+
+    <LinearLayout
+        android:id="@+id/head_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/head_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/fire_icon"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/head_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="스마트홈에"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/head_text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="화재가 발생했습니다."
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/main_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/siren_icon" />
+
+        <TextView
+            android:id="@+id/main_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/nanumsquareroundeb"
+            android:text="119 신고하기"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/main_text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="터치하면 자동으로 119 안전센터에 연결됩니다."
+            android:textAlignment="center"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/foot_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/foot_btn_1"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:background="@drawable/layout_background_btn"
+            android:text="확인해볼께요." />
+
+        <Button
+            android:id="@+id/foot_btn_2"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@drawable/layout_background_btn"
+            android:text="괜찮아요. 오보에요." />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="default_notification_channel_id" translatable="false">SmartHome</string>
+    <string name="default_notification_channel_name" translatable="false">SmartHome</string>
+</resources>

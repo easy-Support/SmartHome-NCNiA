@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="집 호수 설정" />
+
+    <item
+        android:id="@+id/menu_item2"
+        android:title="집 호수 추가/삭제" />
+</menu>
