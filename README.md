@@ -32,7 +32,6 @@
 ### 라즈베리파이
 + Python 3.8
    + FastAPI 
-+ MySQL 
 + Raspberry Pi 3 Model B+
 
 ### 안드로이드 어플리케이션
