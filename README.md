@@ -33,7 +33,7 @@
 + Python 3.8
    + FastAPI 
 + Raspberry Pi 3 Model B+
-안드로이드 스튜디오 로딩
+
 ### 안드로이드 어플리케이션
 + Android Studio (Java)
 + Android Q (10, API Level 29)
