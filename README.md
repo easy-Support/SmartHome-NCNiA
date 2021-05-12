@@ -42,6 +42,9 @@
 ### 로딩화면 & 메인 화면
 ![main_page](https://user-images.githubusercontent.com/65817334/117976790-1e877b00-b36b-11eb-8ce5-ba52895eac43.png)
 
+### 메뉴 화면
+![menu](https://user-images.githubusercontent.com/65817334/117978533-f13bcc80-b36c-11eb-8e61-c3c52fa9f5cf.png)
+
 ### 화재 화면
 ![fire](https://user-images.githubusercontent.com/65817334/117975991-3b6f7e80-b36a-11eb-9f8a-3eb979021de0.png)
 
