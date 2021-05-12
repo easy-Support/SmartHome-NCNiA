@@ -33,7 +33,20 @@
 + Python 3.8
    + FastAPI 
 + Raspberry Pi 3 Model B+
-
+안드로이드 스튜디오 로딩
 ### 안드로이드 어플리케이션
 + Android Studio (Java)
 + Android Q (10, API Level 29)
+
+## 어플케이션 화면
+### 로딩화면 & 메인 화면
+![main_page](https://user-images.githubusercontent.com/65817334/117976790-1e877b00-b36b-11eb-8ce5-ba52895eac43.png)
+
+### 화재 화면
+![fire](https://user-images.githubusercontent.com/65817334/117975991-3b6f7e80-b36a-11eb-9f8a-3eb979021de0.png)
+
+### 가연성 가스 화면
+![gas](https://user-images.githubusercontent.com/65817334/117975993-3ca0ab80-b36a-11eb-8b0d-00efbdd04dea.png)
+
+### 층간 소음 화면
+![noise](https://user-images.githubusercontent.com/65817334/117975997-3d394200-b36a-11eb-9e16-09603333375f.png)
